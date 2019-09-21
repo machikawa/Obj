@@ -1,7 +1,13 @@
 package machikawa.hidemasa.techacademy.obj
 
-open class Animal {
+abstract class Animal {
+    var name : String
+    var age : Int
 
-    open fun say(){
+    constructor(name:String, age:Int){
+        this.name = name
+        this.age = age
     }
+
+    abstract fun say()
 }
