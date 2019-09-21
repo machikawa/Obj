@@ -19,3 +19,5 @@ class MainActivity : AppCompatActivity() {
         ichiro.think()
     }
 }
+
+// branch change test
